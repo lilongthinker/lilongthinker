@@ -2,7 +2,7 @@
 - 👀 I’m interested in JAVA.
 - 🌱 I’m currently learning nodej(midway)
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me: lilongthinker@163.com
+- 📫 How to reach me: lilongthinker@gmail.com
 
 <!---
 lilongthinker/lilongthinker is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
