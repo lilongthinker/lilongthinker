@@ -39,8 +39,8 @@ module Jekyll
           # Sleep for a random amount of time to avoid being blocked
           sleep(rand(1.5..3.5))
 
-          # Fetch the article page
-          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+          # Fetch the article page with a timeout
+          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}", :read_timeout => 10, :open_timeout => 10))
 
           # Attempt to extract the "Cited by n" string from the meta tags
           citation_count = 0
@@ -68,8 +68,12 @@ module Jekyll
 
         citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
 
+      rescue Net::OpenTimeout, Net::ReadTimeout => e
+        # Handle timeout errors specifically
+        citation_count = "N/A"
+        puts "Timeout error fetching citation count for #{article_id} in #{article_url}: #{e.class} - #{e.message}"
       rescue Exception => e
-        # Handle any errors that may occur during fetching
+        # Handle any other errors that may occur during fetching
         citation_count = "N/A"
 
         # Print the error message including the exception class and message
