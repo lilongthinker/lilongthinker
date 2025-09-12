@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-云中立之我见",
+            },{id: "post-十二因子-tweleve-factor",
+        
+          title: "十二因子 tweleve factor",
+        
+        description: "云原生对应用设计的要求",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/tweleve-factor/";
+          
+        },
+      },{id: "post-云中立之我见",
         
           title: "云中立之我见",
         
