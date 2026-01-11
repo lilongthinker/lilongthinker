@@ -72,7 +72,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-十二因子-tweleve-factor",
+            },{id: "post-kubernetes-the-common-denominator-across-cloud-providers-kubernetes-不同云提供商的共同标准",
+        
+          title: "Kubernetes: The Common Denominator Across Cloud Providers | Kubernetes：不同云提供商的共同标准",
+        
+        description: "How Kubernetes serves as the common platform across different cloud providers and benefits customers. | Kubernetes 如何作为不同云提供商的通用平台并为客户带来益处。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/kubernetes-cloud-providers/";
+          
+        },
+      },{id: "post-agent-prompt-optimization-techniques-and-best-practices-智能体提示优化-技术与最佳实践",
+        
+          title: "Agent Prompt Optimization: Techniques and Best Practices | 智能体提示优化：技术与最佳实践",
+        
+        description: "A comprehensive guide to optimizing prompts for AI agents, covering key principles, best practices, and practical examples. | 一份全面的指南，介绍如何为AI智能体优化提示，涵盖关键原则、最佳实践和实际案例。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/agent-prompt-optimization/";
+          
+        },
+      },{id: "post-十二因子-tweleve-factor",
         
           title: "十二因子 tweleve factor",
         
