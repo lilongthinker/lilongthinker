@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-kubernetes-the-common-denominator-across-cloud-providers-kubernetes-不同云提供商的共同标准",
+            },{id: "post-the-spectrum-of-agent-prompt-management-from-modules-to-architectures-agent-提示词管理全谱系-从模块化到架构化",
+        
+          title: "The Spectrum of Agent Prompt Management: From Modules to Architectures |Agent 提示词管理全谱系：从模块化到架构化",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/comprehensive-agent-prompt-management/";
+          
+        },
+      },{id: "post-kubernetes-the-common-denominator-across-cloud-providers-kubernetes-不同云提供商的共同标准",
         
           title: "Kubernetes: The Common Denominator Across Cloud Providers | Kubernetes：不同云提供商的共同标准",
         
