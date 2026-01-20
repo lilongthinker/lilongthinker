@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-the-spectrum-of-agent-prompt-management-from-modules-to-architectures-agent-提示词管理全谱系-从模块化到架构化",
+            },{id: "post-k8s集群大模型部署与优化实践",
+        
+          title: "K8s集群大模型部署与优化实践",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/k8s-cluster-large-model-deployment/";
+          
+        },
+      },{id: "post-the-spectrum-of-agent-prompt-management-from-modules-to-architectures-agent-提示词管理全谱系-从模块化到架构化",
         
           title: "The Spectrum of Agent Prompt Management: From Modules to Architectures |Agent 提示词管理全谱系：从模块化到架构化",
         
